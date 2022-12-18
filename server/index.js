@@ -3,7 +3,7 @@ const app = express();
 const path = require('path')
 const staticPath = path.join(__dirname,"../")
 const mongoose = require('mongoose')
-const DB = 'mongodb+srv://hackathon-wemakedevs:hackathon-wemakedevs@cluster0.m1h3lbp.mongodb.net/test'
+const DB = 'mongodb+srv://hackathon-wemakedevs:****@cluster0.m1h3lbp.mongodb.net/test'
 const username = 'hackathon-wemakedevs'
 
 app.use(express.json())
